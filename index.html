@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte e Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- PARTE 1: MENU DE NAVEGAÇÃO -->
+    <header class="header">
+        <a href="#" class="logo">Agro<span>Forte</span></a>
+        <button class="menu-toggle" aria-label="Abrir Menu">☰</button>
+        <nav class="navbar">
+            <a href="#inicio">Início</a>
+            <a href="#planos">Planos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <!-- PARTE 2: DESTAQUE (HERO) -->
+    <section id="inicio" class="destaque">
+        <div class="destaque-conteúdo">
+            <h1>Agro Forte & Sustentável</h1>
+            <p>Unindo a força do campo com o respeito ao meio ambiente. Soluções modernas para o produtor do futuro.</p>
+            <a href="#planos" class="btn-principal">Conhecer Planos</a>
+        </div>
+    </section>
+
+    <!-- PARTE 3: SERVIÇOS (PLANOS) -->
+    <section id="planos" class="servicos">
+        <h2 class="titulo-secao">Nossos Serviços</h2>
+        <div class="cards-container">
+            <!-- Card 1 -->
+            <div class="card">
+                <h3>Plano Essencial</h3>
+                <p class="preco">R$ 299<span>/mês</span></p>
+                <p>Análise básica de solo e recomendação de plantio sustentável.</p>
+                <button class="btn-card" data-plano="Essencial">Contratar</button>
+            </div>
+            <!-- Card 2 -->
+            <div class="card destaque-card">
+                <h3>Plano Produtor</h3>
+                <p class="preco">R$ 599<span>/mês</span></p>
+                <p>Monitoramento via satélite, manejo de pragas e relatórios mensais.</p>
+                <button class="btn-card" data-plano="Produtor">Contratar</button>
+            </div>
+            <!-- Card 3 -->
+            <div class="card">
+                <h3>Plano Premium</h3>
+                <p class="preco">R$ 999<span>/mês</span></p>
+                <p>Consultoria técnica completa presencial e projetos de irrigação ecológica.</p>
+                <button class="btn-card" data-plano="Premium">Contratar</button>
+            </div>
+            <!-- Card 4 -->
+            <div class="card">
+                <h3>Plano AgroTech</h3>
+                <p class="preco">Sob Consulta</p>
+                <p>Automação de processos agrícolas e transição para carbono zero.</p>
+                <button class="btn-card" data-plano="AgroTech">Falar com Consultor</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- PARTE 4: PARTE FINAL (RODAPÉ / CONTATO) -->
+    <footer id="contato" class="rodape">
+        <div class="rodape-container">
+            <div class="rodape-info">
+                <h3>Fale Conosco</h3>
+                <p>Pronto para transformar sua produção?</p>
+            </div>
+            <div class="rodape-links">
+                <h3>Contatos</h3>
+                <a href="https://wa.me" target="_blank" class="link-social">WhatsApp: (44) 991696544</a>
+                <h3>Redes Sociais</h3>
+                <a href="https://instagram.com" target="_blank" class="link-social">Instagram: @emanuelle-agro</a>
+            </div>
+        </div>
+        <div class="rodape-direitos">
+            <p>&copy; 2026 Agro Forte e Sustentável. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
